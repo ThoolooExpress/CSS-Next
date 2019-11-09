@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   The Fordham University Computer Science Society is a student club that
   advocates for Computer Science at Fordham and conducts events aimed at
   inspiring and educating other Computer Science Students.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/css-next" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
