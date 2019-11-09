@@ -3,5 +3,6 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+banner-image: '/assets/header-bg.jpg'
+list_title: 'Announcements'
 ---
-![landscape of keating hall](/assets/header-bg.jpg)
