@@ -1,6 +1,6 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
-@import 'staff.scss';
+
 // Define defaults for each variable.
 
 $base-font-family: 'Open Sans', sans-serif !default;
@@ -46,6 +46,9 @@ $on-laptop:        800px !default;
 
 // Import partials.
 @import
+  'banner-img',
+  'staff.scss',
+  'tile-list.scss',
   "minima/base",
   "minima/layout",
   "minima/syntax-highlighting"

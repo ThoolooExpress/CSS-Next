@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+  {%- if site.posts.size > 0 -%}
+    <ul class="tile-list">
+      {%- assign staff_list = site.posts | where: "categories", "staff-announcement" -%}
+      {%- for post in staff_list -%}
+      <li>
+        <img class="staff-profile" src="{{ post.image }}">
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <h3 class="tile-name">
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.staffName | escape }}
+          </a>
+        </h3>
+        <h4 class="tile-subtitle">
+          {{ post.position }}
+        </h4>
+        {%- if site.show_excerpts -%}
+          {{ post.excerpt }}
+        {%- endif -%}
+      </li>
+      {%- endfor -%}
+    </ul>
+
+    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+  {%- endif -%}
+
+</div>
