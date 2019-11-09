@@ -4,3 +4,4 @@
 
 layout: home
 ---
+![landscape of keating hall](/assets/header-bg.jpg)

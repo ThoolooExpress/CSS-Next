@@ -16,7 +16,7 @@
 	// Uncomment the next line to run commands after the container is created.
 	// "postCreateCommand": "ruby --version",
 
-	"postCreateCommand": "mkdir -p /root/.ssh; cp -r /root/.ssh-localhost/* /root/.ssh; cp /root/.ssh/openssh_is_stupid /root/.ssh/id_rsa; chmod 700 /root/.ssh; chmod 600 /root/.ssh/*",
+	"postCreateCommand": "mkdir -p /root/.ssh; cp -r /root/.ssh-localhost/* /root/.ssh; cp /root/.ssh/openssh_is_stupid /root/.ssh/id_rsa; chmod 700 /root/.ssh; chmod 600 /root/.ssh/*; bundle install",
 
 	// Uncomment the next line to use a non-root user. On Linux, this will prevent
 	// new files getting created as root, but you may need to update the USER_UID
