@@ -34,6 +34,8 @@ $content-width:    1000px !default;
 $on-palm:          600px !default;
 $on-laptop:        800px !default;
 
+$z-index-ui: 1000;
+
 // Use media queries like this:
 // @include media-query($on-palm) {
 //   .wrapper {
@@ -73,6 +75,15 @@ $on-laptop:        800px !default;
 
 .gcal-link > img {
   margin-bottom: 0.33 * $base-font-size;
+}
+
+// Fix nav appearing behind images
+.site-nav {
+  z-index: $z-index-ui;
+}
+
+.title-img {
+  width: 13rem;
 }
 // Import partials.
 @import

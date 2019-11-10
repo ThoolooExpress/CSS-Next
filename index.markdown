@@ -4,6 +4,6 @@
 
 layout: home
 banner-image: '/assets/img/header-bg.png'
-logo-image: '/assets/img/logo-nobg.png'
+logo-image: '/assets/img/logo-notext-nobg.png'
 list_title: 'Announcements'
 ---

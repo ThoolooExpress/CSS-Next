@@ -14,7 +14,7 @@ layout: default
   {%- for year in staff_by_year -%}
     <h2>{{year.name}}</h2>
     <ul class="tile-list">
-      {%- assign eboard = year.items | sort:"posIdx" | reverse -%}
+      {%- assign eboard = year.items | sort:"posIndex" -%}
       {%- for post in eboard -%}
       <li>
         <img class="staff-profile" src="{{ post.image }}">
