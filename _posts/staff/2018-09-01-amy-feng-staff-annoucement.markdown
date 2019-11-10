@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Amy Feng Elected President"
+title:  "Amy Feng - President"
 categories: [staff]
 image: /assets/staff_img/amy_feng_2018.png
 position: "President"

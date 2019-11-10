@@ -1,0 +1,17 @@
+---
+layout: post
+---
+
+
+{%- if page.event_date -%}
+{%- assign date_format = "%b %-d, %Y %I:%M%P" -%}
+<h3>
+    Event Date: {{ page.event_date | date: date_format }} &nbsp;
+    {%- if page.gcal_link -%}
+    <a target="_blank" href="{{page.gcal_link}}" class="gcal-link"><img border="0"
+            src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>
+    {%- endif -%}
+</h3>
+{%- endif -%}
+
+{{ content }}

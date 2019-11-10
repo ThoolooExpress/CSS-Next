@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Richard Morrill Elected Research Director"
+title:  "Annie Nguyen - President"
 categories: [staff]
 image: /assets/staff_img/annie_nguyen_2018.jpg
 position: "President"
@@ -9,4 +9,4 @@ yearGroup: "2019-2020 Academic Year"
 staffName: "Annie Nguyen"
 ---
 
-Amy feng was elected president for the 2018-2019 academic year. Congratulations!
+Hi everybody, I keep threatening to quit, but chances are I won't.

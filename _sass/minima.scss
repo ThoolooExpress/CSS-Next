@@ -29,7 +29,7 @@ $brand-color:      $primary-color !default;
 $table-text-align: left !default;
 
 // Width of the content area
-$content-width:    800px !default;
+$content-width:    1000px !default;
 
 $on-palm:          600px !default;
 $on-laptop:        800px !default;
@@ -54,6 +54,14 @@ $on-laptop:        800px !default;
 .download-list {
   list-style: none;
   margin-left: 0;
+}
+
+.downloads > hr {
+  margin-bottom: $base-font-size;
+}
+
+.gcal-link > img {
+  margin-bottom: 0.33 * $base-font-size;
 }
 // Import partials.
 @import

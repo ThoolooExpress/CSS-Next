@@ -1,52 +1,73 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-  {%- include head.html -%}
+{%- include head.html -%}
 
-  <body>
+<body>
 
-    {%- include header.html -%}
-    <div class="banner-container">
-      <img class="banner-img" src="{{page.banner-image}}">
-      <img class="banner-logo" src="{{page.logo-image}}">
-      <div class="pusher"></div>
-    </div>
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-          <div class="home">
-              {%- if page.title -%}
-                <h1 class="page-heading">{{ page.title }}</h1>
+  {%- include header.html -%}
+  <div class="banner-container">
+    <img class="banner-img" src="{{page.banner-image}}">
+    <img class="banner-logo" src="{{page.logo-image}}">
+    <div class="pusher"></div>
+  </div>
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
+      <div class="home">
+        {%- if page.title -%}
+        <h1 class="page-heading">{{ page.title }}</h1>
+        {%- endif -%}
+        {{ content }}
+
+        {%- if site.posts.size > 0 -%}
+        <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+        <ul class="post-list">
+          <!--
+            The following is a horrible, horrible shiv brought to you by Richard Morrill because
+            he doesn't want to learn Ruby to modify the actual page generator to implement filtering
+            on multiple categories, and for whatever reasons Shopify decided that nobody would ever
+            need to union two lists in Liquid.
+          -->
+          {%- assign announcements = "" | split:"," -%}
+
+          {%- for post in site.posts -%}
+          {%- if post.categories contains "events" or post.categories contains "blog" -%}
+          {%- assign announcements = announcements | push:post -%}
+          {%- endif -%}
+          {%- endfor -%}
+          {%- if announcements -%}
+          {%- assign sortedAnnouncements = announcements | sort:"date" | reverse -%}
+          {%- for post in sortedAnnouncements -%}
+          <li>
+            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+            <span class="post-meta">{{ post.date | date: date_format }}</span>
+            <h3>
+              <a class="post-link" href="{{ post.url | relative_url }}">
+                
+                {{ post.title | escape }}{%- if post.event_date -%}: {{post.event_date | date: date_format}}{%- endif -%}
+              </a>
+              {%- if post.gcal_link -%}
+              <a target="_blank" href="{{post.gcal_link}}" class="gcal-link"><img border="0"
+                src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>
               {%- endif -%}
-              {{ content }}
-            
-              {%- if site.posts.size > 0 -%}
-                <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-                <ul class="post-list">
-                  {%- for post in site.categories.announcements -%}
-                  <li>
-                    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-                    <span class="post-meta">{{ post.date | date: date_format }}</span>
-                    <h3>
-                      <a class="post-link" href="{{ post.url | relative_url }}">
-                        {{ post.title | escape }}
-                      </a>
-                    </h3>
-                    {%- if site.show_excerpts -%}
-                      {{ post.excerpt }}
-                    {%- endif -%}
-                  </li>
-                  {%- endfor -%}
-                </ul>
-            
-                <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-              {%- endif -%}
-            
-            </div>
+            </h3>
+            {%- if site.show_excerpts -%}
+            {{ post.excerpt }}
+            {%- endif -%}
+          </li>
+          {%- endfor -%}
+          {%- endif -%}
+        </ul>
+
+        <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+        {%- endif -%}
+
       </div>
-    </main>
+    </div>
+  </main>
 
-    {%- include footer.html -%}
+  {%- include footer.html -%}
 
-  </body>
+</body>
 
 </html>

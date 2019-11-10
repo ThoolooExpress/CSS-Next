@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Richard Morrill Elected Research Director"
+title:  "Annie Nguyen - Vice President"
 categories: [staff]
 image: /assets/staff_img/annie_nguyen_2018.jpg
 position: "Vice President"
