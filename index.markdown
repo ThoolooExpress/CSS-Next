@@ -3,6 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-banner-image: '/assets/header-bg.jpg'
+banner-image: '/assets/header-bg.png'
+logo-image: '/assets/logo-nobg.png'
 list_title: 'Announcements'
 ---

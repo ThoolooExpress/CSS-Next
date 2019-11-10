@@ -11,13 +11,20 @@ $base-line-height: 1.5 !default;
 
 $spacing-unit:     30px !default;
 
-$text-color:       rgb(248, 248, 242) !default;
-$background-color: #272822 !default;
-$brand-color:      #2a7ae2 !default;
+$primary-color: #5D32F5;
+$secondary-color: #7C6BFB;
+$accent-color: #F485FE;
+$text-color: lighten($secondary-color, 50%) !default;
 
-$grey-color:       desaturate(darken($text-color, 10%), 20%) !default;
-$grey-color-light: lighten($grey-color, 40%) !default;
-$grey-color-dark:  darken($grey-color, 25%) !default;
+
+$grey-color:       desaturate(darken($text-color, 20%), 20%) !default;
+// $grey-color-light: lighten($grey-color, 20%) !default;
+$grey-color-light: $accent-color;
+
+$grey-color-dark:  $secondary-color;
+
+$background-color: desaturate(darken($accent-color, 75%), 50%) !default;
+$brand-color:      $primary-color !default;
 
 $table-text-align: left !default;
 

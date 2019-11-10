@@ -26,8 +26,13 @@ description: >- # this means to ignore newlines until "baseurl:"
   inspiring and educating other Computer Science Students.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  fordham-css
+author: Computer Science Society
+
+address_street: 441 East Fordham Road
+address_city: Bronx
+address_state: New York
+address_zip: 10458
 
 # Build settings
 theme: minima

@@ -6,7 +6,11 @@
   <body>
 
     {%- include header.html -%}
-    <img class="banner-img" src="{{page.banner-image}}">
+    <div class="banner-container">
+      <img class="banner-img" src="{{page.banner-image}}">
+      <img class="banner-logo" src="{{page.logo-image}}">
+      <div class="pusher"></div>
+    </div>
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
           <div class="home">
@@ -18,7 +22,7 @@
               {%- if site.posts.size > 0 -%}
                 <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
                 <ul class="post-list">
-                  {%- for post in site.posts -%}
+                  {%- for post in site.categories.announcements -%}
                   <li>
                     {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
                     <span class="post-meta">{{ post.date | date: date_format }}</span>
