@@ -4,6 +4,7 @@
     object-fit: cover;
     object-position: 50% 72.5%;
     position: absolute;
+    -webkit-mask-image: -webkit-linear-gradient(top, rgba(0,0,0,1), rgba(0,0,0,0));
     mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
 }
 .banner-logo {
