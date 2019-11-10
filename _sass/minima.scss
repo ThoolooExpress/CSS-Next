@@ -51,13 +51,24 @@ $on-laptop:        800px !default;
   font-size: $base-font-size * $ratio;
 }
 
+// For the downloads list at the end of posts
 .download-list {
   list-style: none;
   margin-left: 0;
+  & > hr {
+    margin-bottom: $base-font-size;
+  }
 }
 
-.downloads > hr {
-  margin-bottom: $base-font-size;
+// For the main downloads table at /downloads
+.downloads-table {
+  & ul {
+    // The list of files
+    list-style: none;
+    margin: 0;
+    max-height: 6rem;
+    overflow: auto;
+  }
 }
 
 .gcal-link > img {

@@ -1,0 +1,42 @@
+---
+layout: page
+---
+
+{{content}}
+
+{%- assign downloadPosts = site.posts | where_exp:"post","post.downloads" -%}
+{%- if downloadPosts.size > 0 -%}
+<table class="downloads-table">
+    <thead>
+        <th>Date</th>
+        <th>Post</th>
+        <th>Files</th>
+        <th>Count</th>
+    </thead>
+
+    {%- for post in downloadPosts -%}
+    <tr>
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <td>{{post.date | date: date_format }}</td>
+        <td><a href="{{post.url | relative_url}}">{{post.title}}</a></td>
+        <td>
+            <ul>
+                {%- for dl in post.downloads -%}
+                <li>
+                    <a href="{{dl.file_url | relative_url}}" target="_blank">{{dl.name}}</a>
+                </li>
+                {%- endfor -%}
+            </ul>
+        </td>
+        <td>
+            {{ post.downloads.size}}
+        </td>
+
+    </tr>
+    {%- endfor -%}
+    
+</table>
+
+{%- else -%}
+There are now downloads to show right now, please check back later.
+{%- endif -%}
