@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Amy Feng Elected President"
-categories: [staff-announcement]
+categories: [staff]
 image: /assets/amy_feng_2018.png
 position: "President"
-posIndex: 0
+posIndex: 1
 yearGroup: "2018-2019 Academic Year"
 staffName: "Amy Feng"
 ---

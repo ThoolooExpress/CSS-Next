@@ -2,7 +2,7 @@
 layout: post
 title:  "New Site Who Dis?"
 date:   2019-11-07 16:43:09 -0500
-categories: update
+categories: announcements
 author: Richard Morrill
 ---
 

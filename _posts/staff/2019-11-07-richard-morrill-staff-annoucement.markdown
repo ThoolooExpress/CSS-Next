@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Richard Morrill Elected Research Director"
-categories: [staff-announcement]
-image: /assets/amy_feng_2018.png
+categories: [staff]
+image: /assets/richard_morrill_2019.png
 position: "Research Director"
-posIndex: 0
+posIndex: 3
 yearGroup: "2019-2020 Academic Year"
 staffName: "Richard Morrill"
 ---
