@@ -2,7 +2,7 @@
 layout: post
 title:  "Richard Morrill Elected Research Director"
 categories: [staff]
-image: /assets/annie_nguyen_2018.jpg
+image: /assets/staff_img/annie_nguyen_2018.jpg
 position: "President"
 posIndex: 1
 yearGroup: "2019-2020 Academic Year"

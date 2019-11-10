@@ -51,6 +51,10 @@ $on-laptop:        800px !default;
   font-size: $base-font-size * $ratio;
 }
 
+.download-list {
+  list-style: none;
+  margin-left: 0;
+}
 // Import partials.
 @import
   'banner-img',

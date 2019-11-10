@@ -2,7 +2,7 @@
 layout: post
 title:  "Amy Feng Elected President"
 categories: [staff]
-image: /assets/amy_feng_2018.png
+image: /assets/staff_img/amy_feng_2018.png
 position: "President"
 posIndex: 1
 yearGroup: "2018-2019 Academic Year"

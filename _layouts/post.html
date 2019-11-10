@@ -18,6 +18,17 @@ layout: default
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
+  {%- if page.downloads -%}
+  <div class="post-content e-content" itemprop="articleBody">
+    <hr>
+    <h2>Downloads</h2>
+    <ul class="download-list">
+        {%- for download in page.downloads -%}
+        <li><a href="{{download.file_url}}" target="_blank">{{download.name}}</a></li>
+        {%- endfor -%}
+    </ul>
+  </div>
+  {%- endif -%}
 
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
