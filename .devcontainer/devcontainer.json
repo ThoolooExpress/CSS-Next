@@ -22,7 +22,7 @@
 	// 3) Be aware of the fact that this private key is now slightly less secure than it should be, only use it for
 	//    low-impact applications like github.  If you really care that much just create a special key just for your
 	//    dev containers
-	"postCreateCommand": "mkdir -p /root/.ssh; cp -r /root/.ssh-localhost/* /root/.ssh; [[ -e openssh_is_stupid ]] && cp /root/.ssh/openssh_is_stupid /root/.ssh/id_rsa; chmod 700 /root/.ssh; chmod 600 /root/.ssh/*; bundle install",
+	"postCreateCommand": "mkdir -p /root/.ssh; cp -r /root/.ssh-localhost/* /root/.ssh; [ -e /root/.ssh/openssh_is_stupid ] && cp /root/.ssh/openssh_is_stupid /root/.ssh/id_rsa; chmod 700 /root/.ssh; chmod 600 /root/.ssh/*; bundle install",
 
 	// Uncomment the next line to use a non-root user. On Linux, this will prevent
 	// new files getting created as root, but you may need to update the USER_UID
