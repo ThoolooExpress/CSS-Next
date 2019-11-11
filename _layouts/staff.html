@@ -17,7 +17,7 @@ layout: default
       {%- assign eboard = year.items | sort:"posIndex" -%}
       {%- for post in eboard -%}
       <li>
-        <img class="staff-profile" src="{{ post.image }}">
+        <img class="staff-profile profile-rounded" src="{{ post.image | relative_url }}">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <h3 class="tile-name">
           <a class="post-link" href="{{ post.url | relative_url }}">

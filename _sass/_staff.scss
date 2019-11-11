@@ -6,3 +6,12 @@
     object-fit: cover;
     margin-left: auto;
 }
+
+.profile-rounded {
+    border-radius: 50%;
+}
+
+.profile-inline {
+    float: left;
+    margin-right: $spacing-unit;
+}
