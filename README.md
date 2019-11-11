@@ -2,4 +2,13 @@ CSS-Next
 ========
 
 This is the source repo for the Fordham University Computer Science Society's
-homepage, hosted at [beta.fordhamcss.org](https://beta.fordhamcss.org)
+homepage, hosted at [beta.fordhamcss.org](http://beta.fordhamcss.org).
+
+This readme is divided into two sections.  The first, "Content Management" is
+aimed at anybody who is adding or editing the content, but not the design of
+the site.  The second, "Design and Maintenance", describes the specifics of
+how the site was created, and best practices for changing the design.
+
+Content Management
+==================
+
