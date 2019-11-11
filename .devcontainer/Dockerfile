@@ -48,12 +48,21 @@ RUN apt-get update
 RUN apt-get install fish -y
 
 # Set up fish config
-WORKDIR /root/.config/fish
+WORKDIR /home/vscode/.config/fish
 RUN wget https://gist.githubusercontent.com/ThoolooExpress/e78e30ea9384fb833ed9defc269f04f1/raw/74b6f3c342db7552afba1ca48ccb5e56fd20dacd/config.fish
 
 # SSH-Agent fix
 
-RUN echo "\neval (ssh-agent -c)" >> /root/.config/fish/config.fish
-RUN echo "\nssh-add ~/.ssh/id_rsa" >> /root/.config/fish/config.fish
+RUN echo "\neval (ssh-agent -c)" >> /home/vscode/.config/fish/config.fish
+RUN echo "\nssh-add ~/.ssh/id_rsa" >> /home/vscode/.config/fish/config.fish
+
+# Add variable file
+# RUN touch /home/vscode/.config/fish/fish_variables
+# Fix permissions
+RUN chown -R $USERNAME:$USERNAME /home/$USER
+
+# Set XDG_CONFIG_HOME to avoid weird fish issues
+
+RUN echo "\nset-x XDG_CONFIG_HOME $HOME/.config"
 # Switch back to dialog for any ad-hoc use of apt-get
 ENV DEBIAN_FRONTEND=
