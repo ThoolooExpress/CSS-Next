@@ -1,12 +1,13 @@
 ---
 layout: post
-title:  "Annie Nguyen - Vice President"
+title:  "Annie Nguyen - Marketing Director"
 categories: [staff]
 image: /assets/staff_img/annie_nguyen_2018.jpg
-position: "Vice President"
+position: "Marketing Director"
 posIndex: 2
 yearGroup: "2018-2019 Academic Year"
 staffName: "Annie Nguyen"
 ---
 
-Amy feng was elected president for the 2018-2019 academic year. Congratulations!
+Annie Nguyen declined to write a bio, so you can safely
+assume she's done nothing with her life.
