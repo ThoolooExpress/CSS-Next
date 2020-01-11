@@ -37,6 +37,7 @@
 	// Add the IDs of extensions you want installed when the container is created in the array below.
 	"extensions": [
 		"rebornix.Ruby",
-		"eamodio.gitlens"
+		"eamodio.gitlens",
+		"stkb.rewrap"
 	]
 }
