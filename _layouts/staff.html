@@ -4,7 +4,7 @@ layout: default
 
 <div class="home">
   {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
+  <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
 
   {{ content }}
@@ -12,26 +12,29 @@ layout: default
   {%- if site.posts.size > 0 -%}
   {%- assign staff_by_year = site.categories.staff | group_by:"yearGroup" -%}
   {%- for year in staff_by_year -%}
-    <h2>{{year.name}}</h2>
-    <ul class="tile-list">
-      {%- assign eboard = year.items | sort:"posIndex" -%}
-      {%- for post in eboard -%}
-      <li>
-        <img class="staff-profile profile-rounded" src="{{ post.image | relative_url }}">
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <h3 class="tile-name">
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.staffName | escape }}
-          </a>
-        </h3>
-        <h4 class="tile-subtitle">
-          {{ post.position }}
-        </h4>
-      </li>
-      {%- endfor -%}
-    </ul>
+  <h2>{{year.name}}</h2>
+  <ul class="tile-list">
+    {%- assign eboard = year.items | sort:"posIndex" -%}
+    {%- for post in eboard -%}
+    <li>
+      <a class="post-link" href="{{ post.url | relative_url }}">
+      <img class="staff-profile profile-rounded" src="{{ post.image | relative_url }}">
+      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+      <h3 class="tile-name">
+
+        {{ post.staffName | escape }}
+
+      </h3>
+      <h4 class="tile-subtitle">
+        {{ post.position }}
+      </h4>
+      </a>
+    </li>
+
     {%- endfor -%}
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+  </ul>
+  {%- endfor -%}
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
   {%- endif -%}
 
 </div>
