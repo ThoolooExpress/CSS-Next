@@ -19,11 +19,24 @@ changes, but do note that if you opt to do it the iCal way, it won't, so please
 stay on top of the emails.
 
 The content of all the events should be pretty familiar if you went to my events
-last semester.  Every Interview Skills session we will run through a topic that
-is often tested in technical interviews, and practice common interview problems.
-During Pickup Research we'll continue the robotics projects we started last
-semester. When the precise topics of events are decided, they'll get their own
-posts, so check back over the next few weeks.
+last semester, with a few changes due to feedback recieved last semester.  Every
+Interview Skills session we will run through a topic that is often tested in
+technical interviews, and practice common interview problems. During Pickup
+Research we'll continue the robotics projects we started last semester. When the
+precise topics of events are decided, they'll get their own posts, so check back
+over the next few weeks.
+
+The end goal of Pickup Research will still be to complete the robotic arm
+project we set out to build at the beginning of last semester.  However, to make
+the individual events more interesting, and valuable for one-time attendees, I
+have decided that every weekly event will have some sort of small workshop or
+challenge associated with it, that will bring help us learn the skills required
+to make our robotic arm perform useful work.  So, now, instead of each event
+being a largely unstructured brainstorming and working group, I will prepare
+content and activities for the first half of the event, and then we'll spend the
+second half working on the actual research project.  This means that casual
+attendees that are interested in the skills workshops but not the research
+initiative are welcome to only attend the first half of the event.
 
 As always, anybody is welcome to drop into any of my events, regardless of
 experience, previous attendance, or intention to attend future events.  I'll do

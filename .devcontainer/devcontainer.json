@@ -38,6 +38,7 @@
 	"extensions": [
 		"rebornix.Ruby",
 		"eamodio.gitlens",
-		"stkb.rewrap"
+		"stkb.rewrap",
+		"streetsidesoftware.code-spell-checker"
 	]
 }
