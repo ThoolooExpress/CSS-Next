@@ -53,8 +53,8 @@ RUN wget https://gist.githubusercontent.com/ThoolooExpress/e78e30ea9384fb833ed9d
 
 # SSH-Agent fix
 
-RUN echo "\neval (ssh-agent -c)" >> /home/vscode/.config/fish/config.fish
-RUN echo "\nssh-add ~/.ssh/id_rsa" >> /home/vscode/.config/fish/config.fish
+# RUN echo "\neval (ssh-agent -c)" >> /home/vscode/.config/fish/config.fish
+# RUN echo "\nssh-add ~/.ssh/id_rsa" >> /home/vscode/.config/fish/config.fish
 
 # Add variable file
 # RUN touch /home/vscode/.config/fish/fish_variables
