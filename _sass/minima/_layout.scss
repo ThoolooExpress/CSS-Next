@@ -39,10 +39,18 @@
   .page-link {
     color: $text-color;
     line-height: $base-line-height;
-
-    // Gaps between nav items, but not on the last one
-    &:not(:last-child) {
-      margin-right: 20px;
+    text-decoration: none;
+    
+    //Modified this to have a little animation on hover
+    //Got rid of gaps between but not on last one
+    & {
+      padding: 15px;
+    }
+    &:hover{
+      border-bottom: 3px solid $grey-color-light;
+      color: $grey-color-light;
+      transition-property: color, border-bottom;
+      transition-duration: 0.2s, 0s;
     }
   }
 
