@@ -1,0 +1,11 @@
+
+.gcal-link{
+    padding: 5px;
+    margin: 2px;
+}
+
+.gcal-link:hover{
+    text-decoration: none;
+    border-bottom: 3px solid $accent-color;
+    color: $accent-color;
+}

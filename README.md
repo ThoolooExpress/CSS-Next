@@ -12,3 +12,17 @@ how the site was created, and best practices for changing the design.
 Content Management
 ==================
 
+
+Running from a Dev Container
+============================
+Use the command:
+    bundle exec jekyll serve
+
+TODO:
+=====
+ - Put Team at the bottom of the Homepage
+ - Simple "About Us" Blurb
+ - Sign Up for Email List
+ - Research Projects (future)
+ - Link Instagram, YT
+ - 
