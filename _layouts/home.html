@@ -88,7 +88,7 @@
         {%- if site.posts.size > 0 -%}
         {%- assign staff_by_year = site.categories.staff | group_by:"yearGroup" -%}
         {%- for year in staff_by_year -%}
-        <h2>{{year.name}}</h2>
+        <h2>{{year.name}} Eboard</h2>
         <ul class="tile-list">
           {%- assign eboard = year.items | sort:"posIndex" -%}
           {%- for post in eboard -%}
