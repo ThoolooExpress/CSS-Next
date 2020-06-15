@@ -19,6 +19,31 @@
         {%- endif -%}
         {{ content }}
 
+        {%- if site.pages.size > 0 -%}
+        {%- for page in site.pages -%}
+          {%- if page.title == "About" -%}
+          <h2>About Us!</h2>
+          <p>{{page.blurb}}</p>
+          {%- endif -%}
+        {%- endfor -%}
+        {%- endif -%}
+
+        <div id = 'email-sub' >
+          <p>Sign up for our email list below!</p>
+          <form action="http://github.us9.list-manage.com/subscribe/post?u=cf1fafbda315812617288f238&amp;id=d0fcfb2a4b" method="POST">
+            <div class = "form__group field">
+              <input class="form__field" type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id='MERGE0' value="" placeholder="jmcshane@fordham.edu">
+              <label for="MERGE0" class="form__label">Email</label>
+            </div>  
+            <br><br>
+            <input type="submit" value="Get Updates" name="subscribe" id="mc-embedded-subscribe" class="btn btn-xl">
+            <br>
+            <br>
+            <input type="hidden" name="u" value="1b70be498004c115d153aaeeb">
+            <input type="hidden" name="id" value="59bdfc55c0">
+          </form>
+        </div>
+
         {%- if site.posts.size > 0 -%}
         <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
         <ul class="post-list">
@@ -31,6 +56,7 @@
           {%- assign announcements = "" | split:"," -%}
 
           {%- for post in site.posts -%}
+
           {%- if post.categories contains "events" or post.categories contains "blog" -%}
           {%- assign announcements = announcements | push:post -%}
           {%- endif -%}
@@ -59,6 +85,32 @@
           {%- endif -%}
         </ul>
 
+        {%- if site.posts.size > 0 -%}
+        {%- assign staff_by_year = site.categories.staff | group_by:"yearGroup" -%}
+        {%- for year in staff_by_year -%}
+        <h2>{{year.name}}</h2>
+        <ul class="tile-list">
+          {%- assign eboard = year.items | sort:"posIndex" -%}
+          {%- for post in eboard -%}
+          <li>
+            <a class="post-link" href="{{ post.url | relative_url }}">
+            <img class="staff-profile profile-rounded" src="{{ post.image | relative_url }}">
+            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+            <h3 class="tile-name">
+
+              {{ post.staffName | escape }}
+
+            </h3>
+            <h4 class="tile-subtitle">
+              {{ post.position }}
+            </h4>
+            </a>
+          </li>
+          {%- endfor -%}
+        </ul>
+        {%- break -%}
+        {%- endfor -%}
+        {%- endif -%}
         <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
         {%- endif -%}
 

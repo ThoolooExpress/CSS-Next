@@ -9,3 +9,85 @@
     border-bottom: 3px solid $accent-color;
     color: $accent-color;
 }
+
+#email-sub{
+    text-align: center;
+}
+
+/*Richard you may have found your way here and I know 
+you told me not to use too much css but this just looked 
+too cool*/
+.btn{
+    border-style: none;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 10px;
+    background-color: $secondary-color;
+    color: $background-color;
+    cursor: default;
+    &:hover{
+        cursor: pointer;
+        background-color: $primary-color;
+    }
+}
+
+.form__group {
+    position: relative;
+    padding: 15px 0 0;
+    margin-top: 10px;
+    width: 50%;
+    display: inline-block;
+  }
+
+  .form__field {
+    font-family: inherit;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid $grey-color;
+    outline: 0;
+    font-size: 1.3rem;
+    color: $accent-color;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+    
+    &::placeholder {
+      color: transparent;
+    }
+  
+    &:placeholder-shown ~ .form__label {
+      font-size: 1.3rem;
+      cursor: text;
+      top: 20px;
+    }
+  }
+  
+  .form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: $grey-color;
+  }
+  
+  .form__field:focus {
+    ~ .form__label {
+      position: absolute;
+      top: 0;
+      display: block;
+      transition: 0.2s;
+      font-size: 1rem;
+      color: $primary-color;
+      font-weight:700;    
+    }
+    padding-bottom: 6px;  
+    font-weight: 700;
+    border-width: 3px;
+    border-image: linear-gradient(to right, $primary-color,$secondary-color);
+    border-image-slice: 1;
+  }
+  /* reset input */
+  .form__field{
+    &:required,&:invalid { box-shadow:none; }
+  }
