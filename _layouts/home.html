@@ -44,6 +44,8 @@
           </form>
         </div>
 
+
+        <!--Below displays the top 10 most recent posts-->
         {%- if site.posts.size > 0 -%}
         <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
         <ul class="post-list">
@@ -55,14 +57,19 @@
           -->
           {%- assign announcements = "" | split:"," -%}
 
+          {%- assign post_count = 0-%}
           {%- for post in site.posts -%}
-
+          {%- if post_count == 6 -%}
+          {%- break -%}
+          {%- endif -%}
           {%- if post.categories contains "events" or post.categories contains "blog" -%}
           {%- assign announcements = announcements | push:post -%}
+          {%- assign post_count = post_count | plus: 1 -%}
           {%- endif -%}
           {%- endfor -%}
           {%- if announcements -%}
           {%- assign sortedAnnouncements = announcements | sort:"date" | reverse -%}
+          
           {%- for post in sortedAnnouncements -%}
           <li>
             {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
@@ -85,6 +92,7 @@
           {%- endif -%}
         </ul>
 
+        
         {%- if site.posts.size > 0 -%}
         {%- assign staff_by_year = site.categories.staff | group_by:"yearGroup" -%}
         {%- for year in staff_by_year -%}

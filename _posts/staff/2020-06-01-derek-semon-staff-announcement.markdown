@@ -7,10 +7,11 @@ position: "President"
 posIndex: 1
 yearGroup: "2020-2021 Academic Year"
 staffName: "Derek Semon"
+email: dsemon@fordham.edu
 ---
 
-CS Major Cyber Security Minor
+Major: Computer Science<br>Minor: Cyber Security
 
-Interested in working in Cyber Security
+Interested in working in Cyber Security.
 
 Other Interests include: Skiing, Fishing, Gaming
