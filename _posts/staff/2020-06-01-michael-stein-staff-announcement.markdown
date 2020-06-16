@@ -2,7 +2,7 @@
 layout: staff-profile
 title:  "Michael Stein - Public Relations"
 categories: [staff]
-image: /assets/staff_img/Michael_Stein_2020.jpg
+image: /assets/staff_img/mike_stein_2020.jpg
 position: "Public Relations"
 posIndex: 7
 yearGroup: "2020-2021 Academic Year"
