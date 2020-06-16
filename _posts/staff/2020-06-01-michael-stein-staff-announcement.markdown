@@ -12,4 +12,4 @@ email: mstein@fordham.edu
 
 Major: Computer Science<br>
 
-I wish I knew what Mike wanted his bio to be.
+Hi everybody, I’m the Public Relations Director for the 2020-21 school year. I’m a junior at Rose Hill and besides computer science, I also love music and skiing.
