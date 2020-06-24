@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "Welcome to our new site!" # This is the title that is displayed to users
+date:   2020-06-23 17:00:00 -0500 # Remember to set this the same as the filename to avoid confusion
+categories: blog # Don't mess with categories unless you know how Jekyll works
+author: David Bono
+# Uncomment to attach downloads
+# downloads:
+#     - file_url: /assets/downloads/example_file.pdf
+#       name: Example File
+---
+
+Hello All!
+
+Welcome to the Fordham Computer Science Society for the 2020-2021 school year. We just launched our new site to fit our rebranded theme and to create an overall better experience than our previous site.
+
+The site will contain blog posts of interesting things we have to share about Computer Science, as well as announcements providing details about upcoming events. You can also sign up for our [email list](https://github.us9.list-manage.com/subscribe/post?u=cf1fafbda315812617288f238&id=d0fcfb2a4b) to get the latest updates about club ongoings.
+
+Also, on the new site, be on the lookout for hidden information... you never know what you might find &#x1F440;
+
+Our Eboard for this year is extremely enthusiastic about the club, and we're dedicated to making this club something you don't want to miss out on. If you have any ideas for things you would like to see the club do, feel free to check out the [staff](/staff) page to get in contact with us!
+
+We look forward to seeing you when school starts up again!
+
+ \- The 2020-2021 Eboard
