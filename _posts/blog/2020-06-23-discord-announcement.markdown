@@ -20,4 +20,4 @@ Are you an alumni looking for employees? The CSS discord is a great place to net
 
 We would like club members to be involved in the club well beyond their four years as a Fordham ram, and our discord is a great, informal way to keep in touch!
 
-Use this [link](https://discord.gg/mStRfN) to get started!
+Use this [link](https://discord.gg/gHhhDZj) to get started!
