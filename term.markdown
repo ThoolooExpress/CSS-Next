@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /terminal/
+permalink: /terminal
 ---
 <div id="console"></div>
 
