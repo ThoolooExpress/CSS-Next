@@ -7,9 +7,10 @@ var jsin = document.getElementById('term_input');
 var jsendl = "<br/>";
 
 var commands = {}
+var cmd_list = []
 
 var prompt_text = "bash";
-document.getElementById('prompt').innerHTML = '['+ prompt_text + ']$ '
+document.getElementById('prompt').innerHTML = '['+ prompt_text + ']$&nbsp;';
 
 function escape_html(str){
 	str.replace('<', '&lt;').replace('>','&gt;');
@@ -23,6 +24,7 @@ function print(str){
 function register_command(name, func)
 {
 	commands[name] = func;
+	cmd_list.push(String(name));
 };
 
 node.addEventListener("keypress", function(event) {
@@ -37,13 +39,13 @@ function handle_command(command){
 	args = command.split(' ');
 
 	if(args[0] in commands){
-		commands[args[0]](args);
+		commands[args[0]].run(args);
 	}
 	else if(args[0] != ""){
 		print("bash: " + args[0] + ": command not found<br/>");
 	}
 
-	document.getElementById('prompt').innerHTML = "[" + prompt_text + ']$ ';
+	document.getElementById('prompt').innerHTML = "[" + prompt_text + ']$&nbsp;';
 	jsin.value = "";
 	document.getElementsByTagName('main')[0].scrollTo(0, document.getElementsByTagName('main')[0].scrollHeight);
 };

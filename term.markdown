@@ -5,6 +5,7 @@ permalink: /terminal
 <div id="console"></div>
 
 <script src="/assets/terminal/terminal.js"></script>
+<script src="/assets/terminal/programs.js"></script>
 
 <style>
 	body{
