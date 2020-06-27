@@ -3,3 +3,5 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
+_templates/python/gen_staff_from_csv.py
+_templates/python/staff.tsv

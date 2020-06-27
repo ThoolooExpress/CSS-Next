@@ -50,6 +50,8 @@ with open(csv_file) as cf:
     for row in csv_reader:
         print(row)
         if line_count != 0:
-            print(template.format(row=row))
+            d = template.format(row=row)
+            with open("_posts/staff/2020-06-01-{}-{}-staff-announcement.markdown".format(str(row[0]).lower(), str(row[1]).lower()), 'w') as f:
+                f.write(d)
         line_count += 1
     print()
