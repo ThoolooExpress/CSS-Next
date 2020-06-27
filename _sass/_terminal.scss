@@ -22,6 +22,9 @@
 		font-size: 12px;
 		background: inherit;
 		color: $secondary-color;
+		&:focus{
+			outline: none;
+		}
 	}
 
 	.old_input{
