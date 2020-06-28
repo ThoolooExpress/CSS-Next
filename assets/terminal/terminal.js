@@ -8,6 +8,8 @@ var jsendl = "<br/>";
 
 var commands = {}
 var cmd_list = []
+var hist = []
+var hist_ix = 0;
 
 var prompt_text = "bash";
 document.getElementById('prompt').innerHTML = '['+ prompt_text + ']$&nbsp;';
@@ -30,7 +32,18 @@ function register_command(name, func)
 node.addEventListener("keypress", function(event) {
     if (event.key === "Enter") {
 		handle_command(jsin.value);
-    }
+		hist.splice(0,0,jsin.value);
+		hist_ix = 0;
+	}
+	else if (event.key === 'ArrowUp'){
+		console.log('hi')
+		jsin.value = hist[hist_ix];
+		hist_ix++;
+	}
+	else if (event.key === 'ArrowDown'){
+		jsin.value = hist[hist_ix];
+		hist_ix--;
+	}
 });
 
 function handle_command(command){
