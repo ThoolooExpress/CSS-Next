@@ -25,7 +25,13 @@ var help = {
 	help: "display this output"
 };
 
+var dir = {
+	run: function(args){
+		print("lol why did you even try that... everyone knows ls is superior to dir" + jsendl)
+	}
+}
+
 register_command("echo", echo);
 register_command("help", help);
-
+register_command("dir", dir);
 
