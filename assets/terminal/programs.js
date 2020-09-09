@@ -1,10 +1,3 @@
-
-var ls = {
-	ls: function() {
-
-	},
-};
-
 var echo = {
 	run: function(args){
 		args.splice(0, 1);
@@ -31,7 +24,7 @@ var dir = {
 	}
 }
 
+
 register_command("echo", echo);
 register_command("help", help);
 register_command("dir", dir);
-

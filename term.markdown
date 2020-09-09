@@ -24,3 +24,32 @@ permalink: /terminal
 		overflow-y: scroll;
 	}
 </style>
+
+<script>
+	var fs = {};
+</script>
+
+<div id='content_loader' style='display: none;'>
+
+{%- for page in site.pages-%}
+
+<script>
+	var title = "{{page.permalink}}";
+	if(title != "")
+	{
+		fs[title] = {
+			title: "{{page.title}}",
+			type: 'd',
+			children: {}
+		}
+	}
+</script>
+{%- endfor -%}
+
+</div>
+
+<script src="/assets/terminal/fs.js"></script>
+
+<script>
+	document.getElementById('content_loader').innerHTML = "";
+</script>

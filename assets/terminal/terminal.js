@@ -15,7 +15,7 @@ var prompt_text = "bash";
 document.getElementById('prompt').innerHTML = '['+ prompt_text + ']$&nbsp;';
 
 function escape_html(str){
-	str.replace('<', '&lt;').replace('>','&gt;');
+	String(str).replace('<', '&lt;').replace('>','&gt;');
 	return str;
 };
 
@@ -66,3 +66,5 @@ function handle_command(command){
 
 document.getElementById('term_input').focus();
 document.getElementById('term_input').select();
+
+
