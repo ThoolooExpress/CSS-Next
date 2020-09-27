@@ -14,7 +14,7 @@ author: David Bono
 Join us for an evening of fast-paced fun as we learn to program one of Amazon's DeepRacers using AWS! No experience required, attend virtually or join us in-person for this exciting event. If you would like to attend in-person, you must fill out the google form below. We hope to see you there!
 
 <p style="text-align: center;">
-Date/Time: September 27, 2020 7:00 PM<br>
+Date/Time: September 28, 2020 7:00 PM<br>
 Title: AWS DeepRacer Event<br>
 Location: Dealy 115<br>
 Zoom URL: <a href="https://fordham.zoom.us/j/94410317637">https://fordham.zoom.us/j/94410317637</a><br>
