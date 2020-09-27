@@ -17,7 +17,7 @@ Join us for an evening of fast-paced fun as we learn to program one of Amazon's 
 Date/Time: September 27, 2020 7:00 PM<br>
 Title: AWS DeepRacer Event<br>
 Location: Dealy 115<br>
-Zoom URL: <a href="https://fordham.zoom.us/j/91076261930">https://fordham.zoom.us/j/91076261930</a><br>
+Zoom URL: <a href="https://fordham.zoom.us/j/94410317637">https://fordham.zoom.us/j/94410317637</a><br>
 <br>
 <a href="https://fordhamcss.us9.list-manage.com/track/click?u=cf1fafbda315812617288f238&id=6badb4503b&e=da6546c9a7">RSVP for In-Person</a><br>
 </p>
