@@ -21,3 +21,9 @@ Zoom URL: <a href="https://fordham.zoom.us/j/94410317637">https://fordham.zoom.u
 <br>
 <a href="https://fordhamcss.us9.list-manage.com/track/click?u=cf1fafbda315812617288f238&id=6badb4503b&e=da6546c9a7">RSVP for In-Person</a><br>
 </p>
+
+<h2>Links:</h2>
+
+[Attendance](https://forms.gle/HR2NJ9GAThEmUjLr8)<br>
+[Amazons Intro to RL](ttps://d2k9g1efyej86q.cloudfront.net/)<br>
+[AWS Console](https://console.aws.amazon.com/deepracer/home?region=us-east-1#getStarted)<br>
