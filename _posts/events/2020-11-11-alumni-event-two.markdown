@@ -9,12 +9,17 @@ author: Emma Famous
 #     - file_url: /assets/downloads/example_file.pdf
 #       name: Example File
 ---
-![](https://d1.awsstatic.com/deepracer/Silverstone/ImgHead_Silverstone_TEST_Car_3.204d9c00ff64cbeae8a5956e75e183c798dcfa81.png)
+This week, CSS has the pleasure of presenting Fordham alumna Amy P. Batallones to speak about her expertise in Cyber Security!
 
-Come join us for the second event in the Alumni Series. This time Amy P. Batallones, Manager of Cyber Security Operations at Con Eddison, will take us through her experience and what is is like being higher up in a computer science position. 
+Batallones received her M.S. in Management of Technology from NYU Tandon School of Engineering and B.S. in Computer Science from Fordham University. As an undergraduate, she was an elected Associate Member of the Sigma Xi Research Honor Society and conducted research with the Fordham Laboratory from Informatics and Data Mining (LIDM).
+
+Batallones is currently Manager of Cyber Security Operations at Con Edison where she oversees 24/7 cyber security incident response, monitoring, analysis, and threat intelligence for the company. She also serves on the International Board of Directors for NYU Tandon's Polytechnic Alumni Association and works as an adjunct cyber security instructor at Fordham's School of Professional and Continuing Studies.
+ 
+Don't miss out on the opportunity to hear from this inspiring alumna!
 
 <p style="text-align: center;">
 Date/Time: November 11, 2020 5:00 PM<br>
 Title: Alumni Event with Amy P. Batallones<br>
+Zoom Link: <a href="https://fordham.zoom.us/j/83252112806">https://fordham.zoom.us/j/83252112806 </a>
 </p>
 
