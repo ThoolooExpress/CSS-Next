@@ -18,8 +18,8 @@ Batallones is currently Manager of Cyber Security Operations at Con Edison where
 Don't miss out on the opportunity to hear from this inspiring alumna!
 
 <p style="text-align: center;">
-Date/Time: November 11, 2020 5:00 PM<br>
-Title: Alumni Event with Amy P. Batallones<br>
+Date: November 11, 2020 <br>
+Time: 5:00 PM <br>
 Zoom Link: <a href="https://fordham.zoom.us/j/83252112806">https://fordham.zoom.us/j/83252112806 </a>
 </p>
 
