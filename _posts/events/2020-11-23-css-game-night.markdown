@@ -2,7 +2,7 @@
 layout: post
 title:  "CSS Game Night" # This is the title that is displayed to users
 date:   2020-11-23 00:00:00 -0500 # Remember to set this the same as the filename to avoid confusion
-categories: blog # Don't mess with categories unless you know how Jekyll works
+categories: events # Don't mess with categories unless you know how Jekyll works
 author: Emma Famous
 # Uncomment to attach downloads
 # downloads:
