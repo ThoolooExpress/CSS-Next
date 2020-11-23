@@ -15,3 +15,5 @@ We'll be giving out some FREE PRIZES to the winners of the games.
 Prizes include: Raspberyy Pi's with LCD displays and CSS Merch
 
 Join us: Monday November 23 at 7PM EST on zoom
+
+Zoom Link: <a href="https://fordham.zoom.us/j/84890381277">https://fordham.zoom.us/j/84890381277 </a>
