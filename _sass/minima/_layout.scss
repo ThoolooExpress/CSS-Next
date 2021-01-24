@@ -38,6 +38,7 @@
 
   .page-link {
     color: $text-color;
+    fill: $text-color;
     line-height: $base-line-height;
     text-decoration: none;
     
@@ -49,9 +50,17 @@
     &:hover{
       border-bottom: 3px solid $grey-color-light;
       color: $grey-color-light;
+      fill: $grey-color-light;
       transition-property: color, border-bottom;
       transition-duration: 0.2s, 0s;
     }
+
+    .login-link {
+      max-height: 15px;
+      fill:inherit;
+      vertical-align: text-top;
+    }
+
   }
 
   @include media-query($on-palm) {
