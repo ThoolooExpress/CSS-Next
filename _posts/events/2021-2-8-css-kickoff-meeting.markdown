@@ -15,14 +15,14 @@ Join us online or in person to get a first look at what's coming up!
 
 New and returning members wanted!
 
-Date: Monday, February 8
-Time: 7:00PM EST
-Location: Dealy 115
-Zoom Meeting ID: 891 2269 8335
+Date: Monday, February 8<br>
+Time: 7:00PM EST<br>
+Location: Dealy 115<br>
+Zoom Meeting ID: 891 2269 8335<br>
 
-No previous experience or event attendance required!
+No previous experience or event attendance required!<br>
 (RSVP is required though!)
 
-Register: <a href="https://fordhamcss.us9.list-manage.com/track/click?u=cf1fafbda315812617288f238&id=65e713c896&e=ce8270c6ad">
+[Register](https://docs.google.com/forms/d/e/1FAIpQLSfWJHQcTPyYbgNcxG4lkXauwj4i9RzEVxQnHp2eLl5F-K0KCA/viewform) <br>
 
-Zoom Link: <a href="https://fordhamcss.us9.list-manage.com/track/click?u=cf1fafbda315812617288f238&id=6530312f8b&e=ce8270c6ad">https://fordham.zoom.us/j/84890381277 </a>
+[Zoom Link](https://fordham.zoom.us/j/89122698335)<br>
