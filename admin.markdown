@@ -5,7 +5,7 @@ permalink: /admin
 ---
 <h1>Logged In As: admin</h1>
 <div id="login-container">
-    <form style="align-items: start!important;" id="login-form" method="POST" action="https://discord-challenge.fordhamcss.repl.co/reset-password">
+    <form style="align-items: start!important;" id="login-form" method="POST" action="http://challenge.fordhamcss.org/reset-password">
         <h1>Settings</h1>
         <h3>Reset Password</h3>
         <div class="form__group field login-input">
@@ -14,7 +14,7 @@ permalink: /admin
         <div class="form__group field">
             <input type="submit" class="btn" value="Reset Password">
         </div>
-        <iframe  onerror="iframe.style.display='none'" id="settings" src="https://discord-challenge.fordhamcss.repl.co/admin" frameborder="0"></iframe>
+        <iframe  onerror="iframe.style.display='none'" id="settings" src="http://challenge.fordhamcss.org/admin" frameborder="0"></iframe>
     </form>
 </div>
 <script defer>
