@@ -11,7 +11,9 @@ author: Emma Famous
 ---
 Happy New Year, hackers! Join us Monday as we kickoff a new semester full of exciting events!
 
-Join us online or in person to get a first look at what's coming up!
+Join us online or in person to get a first look at what's coming up! We have an exciting announcement about a CSS-Hosted "Hacking" contest. Don't miss out!
+
+We also will be having the nominations for next year's Eboard, so if you would like to run make sure you come!
 
 New and returning members wanted!
 
