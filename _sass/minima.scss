@@ -82,6 +82,10 @@ $z-index-ui: 1000;
   z-index: $z-index-ui;
 }
 
+.site-nav div.trigger {
+  display: flex;
+}
+
 .title-img {
   width: 13rem;
 }
