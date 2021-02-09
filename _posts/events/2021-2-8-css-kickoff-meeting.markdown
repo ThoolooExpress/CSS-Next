@@ -26,3 +26,5 @@ No previous experience or event attendance required!<br>
 [Register](https://docs.google.com/forms/d/e/1FAIpQLSfWJHQcTPyYbgNcxG4lkXauwj4i9RzEVxQnHp2eLl5F-K0KCA/viewform) <br>
 
 [Zoom Link](https://fordham.zoom.us/j/89122698335)<br>
+
+[Nominate yourself or a Friend for E-board](https://forms.gle/1pL4VndiFajbQdUy8)<br>
