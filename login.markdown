@@ -5,7 +5,7 @@ permalink: /login/
 ---
 <div id="login-container">
     <!--The Username and Password are; username, and password-->
-    <form id="login-form" method="POST" action="https://discord-challenge.fordhamcss.repl.co/challenge">
+    <form id="login-form" method="POST" action="https://challenge.fordhamcss.org/challenge">
         <div id="login-form-header">
             <h1>Try to Login to the Portal</h1>
             <img src="/assets/img/login.png">
@@ -22,7 +22,7 @@ permalink: /login/
         </div>
     </form>
 </div>
-<iframe src="https://discord-challenge.fordhamcss.repl.co/create-cookie" style="opacity: 0;"></iframe>
+<iframe src="https://challenge.fordhamcss.org/create-cookie" style="opacity: 0;"></iframe>
 <script defer>
     const urlParams = new URLSearchParams(window.location.search);
     let errors = urlParams.getAll('err')
