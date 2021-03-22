@@ -7,7 +7,7 @@ author: David Bono
 future: true
 # Uncomment to attach downloads
 downloads:
-     - file_url: /assets/downloads/hacking_a_coffee_maker.zip
+     - file_url: /assets/downloads/hacking_a_coffee_maker_files.zip
        name: Coffee Maker Files
 ---
 Hey Hackers! Did you ever think that it would be a good idea to take a seemingly simple thing; coffee makers, and connect them to the internet? No? Good, cause we didn't either. Come to our "Hacking a Coffee Maker" event where we'll test the security of "smart" WiFi enabled coffee makers. You'll get an introduction to embedded systems, and compete with your peers to see who can master the art of exploiting java**
