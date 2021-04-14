@@ -30,3 +30,4 @@ Location: Dealy 115 or Zoom<br>
 \*\*Note: there will be no Java *programming* involved... *sighs of relief* <br>
 *RSVP Required for in person
 
+
