@@ -1,0 +1,19 @@
+---
+layout: event
+title:  "Intro to Web Dev." # This is the title that is displayed to users
+date:   2021-04-26 00:00:00 -0500 # Remember to set this the same as the filename to avoid confusion
+categories: events # Don't mess with categories unless you know how Jekyll works
+author: Emma Famous
+future: true
+---
+
+Come learn  the basics of web design and the structures behind our websites!  Attendees will learn the basics then customize the Fordham University CS Society website using the “inspect Element tool”.
+
+<p style="text-align: center">
+Date: Monday, April 26<br>
+Time: 7:00PM<br>
+Location: Zoom<br>
+<br>
+<a href="https://zoom.us/j/97111737475?pwd=eFMyRVB6am9ObkhnVVNCNEsxWXlEQT09">Zoom Link</a><br>
+</p>
+
