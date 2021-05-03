@@ -7,6 +7,8 @@ author: David Bono
 future: true
 ---
 
+![gamenight](/assets/post_content_img/gamenight.png)
+
 Come to our last Monday night event of the semester; Game Night. Compete in various online games (Pictionary, Ultimate Tic Tac Toe, Among Us, and others) to win FREE prizes.
 
 <p style="text-align: center">
