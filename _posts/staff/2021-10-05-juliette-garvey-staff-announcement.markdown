@@ -2,7 +2,7 @@
 layout: staff-profile
 title:  "Juliette Garvey - Marketing Director"
 categories: [staff]
-image: 
+image: /assets/staff_img/juliette_garvey_2021.jpg
 position: "Marketing Director"
 posIndex: 6
 yearGroup: "2021-2022 Academic Year"

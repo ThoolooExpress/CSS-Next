@@ -2,7 +2,7 @@
 layout: staff-profile
 title:  "Bella Belarmino - Vice President"
 categories: [staff]
-image: 
+image: /assets/staff_img/bella_belarmino_2021.jpg
 position: "Vice President"
 posIndex: 2
 yearGroup: "2021-2022 Academic Year"
