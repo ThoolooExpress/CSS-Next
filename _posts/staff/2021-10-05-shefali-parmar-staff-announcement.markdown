@@ -2,7 +2,7 @@
 layout: staff-profile
 title:  "Shefali Parmar - Programming Director"
 categories: [staff]
-image: /assets/staff_img/shefali_parmar_2021.jpg
+image: /assets/staff_img/shefali_parmar_2021.png
 position: "Programming Director"
 posIndex: 5
 yearGroup: "2021-2022 Academic Year"
