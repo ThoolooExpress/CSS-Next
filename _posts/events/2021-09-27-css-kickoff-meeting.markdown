@@ -7,16 +7,21 @@ author: Emma Famous
 future: true
 ---
 
-Join us as we kickoff a new semester full of exciting events! 
+Welcome to the Fordham Computer Science Society, in person this time!
+Join us as we kickoff a new semester full of exciting events, meet our new E-Board, and enjoy some pizza.
 New and returning members wanted!
- 
-Date: Monday, September 27
-Time: 6:00 PM EST
- 
-No previous experience or event attendance is required!
+
+No previous experience or event attendance is required. Details below:
 
 <p style="text-align: center">
-Date: Wednesday, Sept 27th<br>
-Time: 6:00PM<br>
-Location: MCG RH 234&5<br>
+<b>Date</b>: Wednesday, Sept 27th, 2021<br>
+<b>Time</b>: 6:00 PM<br>
+<b>Location</b>: McGinley Center RH 234-235<br>
 <br>
+
+Make sure to join our [email list](https://github.us9.list-manage.com/subscribe/post?u=cf1fafbda315812617288f238&id=d0fcfb2a4b) in case you have not already, not to forget our resourceful [Discord Server](https://discord.gg/uVuj22Pg7w) where you could connect with like-minded students. Can't wait to see you there!
+
+<h2>Links:</h2>
+
+[Presentation Slides](https://docs.google.com/presentation/d/1lbnzWWBN41jG-dNIEpOgE77o_uZGRmS0SJC5kmIa-as/edit?usp=sharing)<br>
+[Freshman Rep Application](https://bit.ly/FrshRep)<br>
