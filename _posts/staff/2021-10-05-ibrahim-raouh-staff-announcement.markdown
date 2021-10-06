@@ -1,12 +1,12 @@
 ---
 layout: staff-profile
-title:  "Ibrahim Raouh - Research Director"
+title:  "Abe Raouh - Research Director"
 categories: [staff]
-image: /assets/staff_img/ibrahim_raouh_2021.jpg
+image: /assets/staff_img/abe_raouh_2021.jpg
 position: "Research Director"
 posIndex: 3
 yearGroup: "2021-2022 Academic Year"
-staffName: "Ibrahim Raouh"
+staffName: "Abe Raouh"
 email: iraouh@fordham.edu
 ---
 
