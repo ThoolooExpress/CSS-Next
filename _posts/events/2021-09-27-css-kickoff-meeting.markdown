@@ -19,9 +19,9 @@ No previous experience or event attendance is required. Details below:
 <b>Location</b>: McGinley Center RH 234-235<br>
 <br>
 
-Make sure to join our [email list](https://github.us9.list-manage.com/subscribe/post?u=cf1fafbda315812617288f238&id=d0fcfb2a4b) in case you have not already, not to forget our resourceful [Discord Server](https://discord.gg/uVuj22Pg7w) where you could connect with like-minded students. Can't wait to see you there!
+Make sure to join our <a href="https://github.us9.list-manage.com/subscribe/post?u=cf1fafbda315812617288f238&id=d0fcfb2a4b">email list</a> in case you have not already, not to forget our resourceful <a href="https://discord.gg/uVuj22Pg7w">Discord Server</a> where you could connect with like-minded students. Can't wait to see you there!
 
 <h2>Links:</h2>
 
-[Presentation Slides](https://docs.google.com/presentation/d/1lbnzWWBN41jG-dNIEpOgE77o_uZGRmS0SJC5kmIa-as/edit?usp=sharing)<br>
-[Freshman Rep Application](https://bit.ly/FrshRep)<br>
+<a href="https://docs.google.com/presentation/d/1lbnzWWBN41jG-dNIEpOgE77o_uZGRmS0SJC5kmIa-as/edit?usp=sharing">Presentation Slides</a><br>
+<a href="https://bit.ly/FrshRep">Freshman Rep Application</a><br>
