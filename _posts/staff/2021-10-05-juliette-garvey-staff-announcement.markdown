@@ -10,7 +10,7 @@ staffName: "Juliette Garvey"
 email: jgarvey@fordham.edu
 ---
 
-<b>Major:</b> Computer Science 
+<b>Major:</b> Computer Science<br>
 <b>Minors:</b> Cybersecurity, Visual Arts
 
 Hi! I am Juliette and I am the Marketing Director! I  am a junior majoring in CS and minoring in Cybersecurity and Visual Arts. I have experience in C++, HTML/CSS, JS and digital design tools like Procreate and Adobe Creative Suite. Some of my interests are painting, thrifting, baking, playing drums, and learning Spanish!
