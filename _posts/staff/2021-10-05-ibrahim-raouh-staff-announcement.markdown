@@ -10,6 +10,6 @@ staffName: "Abe Raouh"
 email: iraouh@fordham.edu
 ---
 
-Major: Math-CS 
+<b>Major:</b> Math and Computer Science
 
-[coming soon]
+Hello CSS people, I’m your fun Research Director for this year. I’m an Artificial Intelligence enthusiast, always looking to develop my skills, hence my current position. Python is the best language ever created, and I hate Java, R, and JS entirely in that specific order. Outside of CSS, I like to play the Piano, do sports, and generally learn new things. I am excited to meet you all and have a great year together.
