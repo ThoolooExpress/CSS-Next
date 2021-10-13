@@ -10,6 +10,6 @@ staffName: "Liam O'Shea"
 email: loshea3@fordham.edu
 ---
 
-Major: Computer Science <br>
+<b>Major:</b> Computer Science 
 
-[coming soon]
+Hi, I am your treasurer. I am interested in coding and soldering. I'm familiar with C++ and Python and I am always trying to improve my programming skills. Some of my hobbies include golf, skiing, and watching sports. My favorite baseball team is the Mets.
